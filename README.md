@@ -1,8 +1,7 @@
 # step_controllers
 区域赛我为了截短加密通路的逻辑路径，用这两个例子学习插入流水线寄存器和设计状态机的方法。
 
-包含了两个工程:
-|工程                    |描述|
+|例子                    |描述|
 |------------------------|----------------------------------------------|
 |  step_controller       |顶层为**step_controller** 包括四步骤 add mul special_step end，顺序执行|
 |  step_controller_multi |顶层为**step_controller_multi** 包括四步骤 add mul special end，special_step重复工作两次|
