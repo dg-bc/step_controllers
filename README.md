@@ -8,4 +8,4 @@
 |  step_controller_multi |顶层为**step_controller_multi** 包括四步骤 add mul special end，special_step重复工作两次|
 
 第一个例子是当时我用ai生成的，虽然有冗余的握手部分，但这种“流水线”的设计套路已经全覆盖了。
-第二个是我自己调着完的，让special_step多做一步。
+第二个是我自己调着玩的，让special_step多做一步，因为AES里需要用到相同逻辑多次迭代。
